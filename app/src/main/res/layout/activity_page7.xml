@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page6">
+    <!--
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="353dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="125dp"
+        android:gravity="center"
+        android:text="Type de rééducation"
+        android:textColor="#0C1333"
+        android:textSize="35dp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="71dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/easy" />
+
+    <EditText
+        android:id="@+id/btn_kinesitherapie"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:hint="  kinesitherapie"
+        android:onClick="onEditTextClicked" />
+
+
+    <EditText
+        android:id="@+id/btn_Rééducation neurologique"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:hint="  Rééducation neurologique "
+        android:onClick="onEditTextClicked" />
+
+    <EditText
+        android:id="@+id/btn_Rééducation respiratoire"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:hint="  Rééducation respiratoire"
+        android:onClick="onEditTextClicked" />
+
+    <EditText
+        android:id="@+id/btn_Rééducation cardiaque"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:ems="10"
+        android:hint="  Rééducation cardiaque"
+        android:onClick="onEditTextClicked" />
+
+    <EditText
+        android:id="@+id/btn_Ergothérapie"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:ems="10"
+        android:hint=" Ergothérapie"
+        android:onClick="onEditTextClicked" />
+
+    <EditText
+        android:id="@+id/btn_Rééducation vestibulaire"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:ems="10"
+        android:hint=" Rééducation vestibulaire"
+        android:onClick="onEditTextClicked" />
+
+
+    <EditText
+        android:id="@+id/btn_Rééducation en psychomotricité"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:ems="10"
+        android:hint=" Rééducation en psychomotricité"
+        android:onClick="onEditTextClicked" />
+
+    <EditText
+        android:id="@+id/btn_Rééducation posturale globale (RPG) "
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ovel"
+        android:hint=" Rééducation posturale globale (RPG) "
+        android:onClick="onEditTextClicked" />
+
+-->
+
+
+</RelativeLayout>

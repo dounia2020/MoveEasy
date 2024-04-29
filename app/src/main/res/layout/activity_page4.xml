@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page5">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous êtes "
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#0C1333"
+        />
+
+    <ImageButton
+        android:id="@+id/b"
+        android:layout_width="120dp"
+        android:layout_height="199dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/medecin" />
+
+    <ImageButton
+        android:id="@+id/b2"
+        android:layout_width="120dp"
+        android:layout_height="199dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="-195dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/pt" />
+
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="63dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="Médecin"
+        android:textColor="#0C1333"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="147dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-66dp"
+        android:gravity="center"
+        android:text="Patient"
+        android:textColor="#0C1333"
+        android:textSize="20sp" />
+</LinearLayout>

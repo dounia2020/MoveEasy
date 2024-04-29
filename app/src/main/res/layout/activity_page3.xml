@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page3">
+
+    <ImageView
+        android:layout_width="185dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/easy" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connexion"
+        android:textColor="#0C1333"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ovel"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:hint="   Gmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/ovel"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:ems="0"
+        android:hint="   Mot De Passe"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/obl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot De passe Oublié?"
+        android:textColor="#0C1333"
+        android:textSize="18dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="2dp"
+        />
+
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="203dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="connexion"
+        android:textColor="#0C1333"
+        android:textSize="18sp"
+        app:backgroundTint="#2C7873"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
